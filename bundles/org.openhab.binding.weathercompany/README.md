@@ -167,9 +167,10 @@ Number:Dimensionless WC_PWS_RelativeHumidity "Relative Humidity [%.1f %unit%]" <
 Number:Pressure WC_PWS_Pressure "Pressure [%.2f %unit%]" <pressure> { channel="weathercompany:weather-observations:observations:currentPressure" }
 // Use this for SI units
 Number:Speed WC_PWS_PrecipitationRate "Precipitation Rate [%.1f mm/h]" <rain> { channel="weathercompany:weather-observations:observations:currentPrecipitationRate" }
+Number:Length WC_PWS_PrecipitationTotal "Precipitation Total [%.1f mm]" <rain> { channel="weathercompany:weather-observations:observations:currentPrecipitationTotal" }
 // Use this for Imperial units
 //Number:Speed WC_PWS_PrecipitationRate "Precipitation Rate [%.2f in/h]" <rain> { channel="weathercompany:weather-observations:observations:currentPrecipitationRate" }
-Number:Length WC_PWS_PrecipitationTotal "Precipitation Total [%.1f %unit%]" <rain> { channel="weathercompany:weather-observations:observations:currentPrecipitationTotal" }
+//Number:Length WC_PWS_PrecipitationTotal "Precipitation Total [%.1f in]" <rain> { channel="weathercompany:weather-observations:observations:currentPrecipitationTotal" }
 Number:Intensity WC_PWS_SolarRadiation "Solar Radiation [%.1f %unit%]" <sun> { channel="weathercompany:weather-observations:observations:currentSolarRadiation" }
 Number WC_PWS_UV "UV Index [%.0f]" <sun> { channel="weathercompany:weather-observations:observations:currentUv" }
 Number:Angle WC_PWS_WindDirection "Wind Direction [%.0f %unit%]" <wind> { channel="weathercompany:weather-observations:observations:currentWindDirection" }
